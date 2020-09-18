@@ -1,6 +1,6 @@
-# Project 1 - CCProject Recruitment - FrontEnd #
+# Welcome to CCPD3V-T3@M #
 
-Our operations team needs to create a basic project for the management of its agents.
+Our operations team needs to create a basic project for the management of its users.
 
 ### Requirements? ###
 
@@ -10,7 +10,7 @@ Our operations team needs to create a basic project for the management of its ag
 
 ### Service (backend)  ###
 
-* [mockup API](https://5d4ad59a5c331e00148eb8c6.mockapi.io/api/users)
+* [mockup API](ask for it)
 
 ### Complete? ###
 
