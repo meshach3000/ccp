@@ -10,7 +10,7 @@ Our operations team needs to create a basic project for the management of its us
 
 ### Service (backend)  ###
 
-* [mockup API](ask for it)
+* API (ask for it)
 
 ### Complete? ###
 
