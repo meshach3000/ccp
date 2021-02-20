@@ -5,9 +5,8 @@ Our operations team needs to create a basic project for the management of its us
 ### Requirements? ###
 
 * Angular (last version)
-* Page Log in.
-* Page CRUD for users (basic maintenance).
-* Only Admin must be able to edit user's password. 
+* User must be able to Login, LogOut
+* Page CRUD for rosters/payroll (using api/token). 
 
 ### Service (backend)  ###
 
