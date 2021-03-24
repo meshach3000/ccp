@@ -11,6 +11,7 @@ Our operations team needs to create a basic project for the management of its us
 ### Service (backend)  ###
 
 * API (ask for it)
+* Are you fullstack? So, use your own backend service ;)
 
 ### Complete? ###
 
