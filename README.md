@@ -6,7 +6,7 @@ Our operations team needs to create a basic project for the management of its us
 
 * Angular (last version)
 * User must be able to Login, LogOut
-* Page CRUD for rosters/payroll (using api/token). 
+* Page CRUD for users (using api/token). 
 
 ### Service (backend)  ###
 
