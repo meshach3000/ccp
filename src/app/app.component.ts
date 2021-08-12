@@ -1,10 +1,26 @@
-import { Component, VERSION } from '@angular/core';
+import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
-@Component({
-  selector: 'my-app',
-  templateUrl: './app.component.html',
-  styleUrls: [ './app.component.css' ]
-})
-export class AppComponent  {
-  name = 'Angular ' + VERSION.major;
+import { AuthenticationService } from './_services';
+import { User, Role , RoleType} from './_models';
+
+@Component({ selector: 'app', templateUrl: 'app.component.html' })
+export class AppComponent {
+    currentUser: User;
+
+    constructor(
+        private router: Router,
+        private authenticationService: AuthenticationService
+    ) {
+        this.authenticationService.currentUser.subscribe(x => this.currentUser = x);
+    }
+
+    get isWriter() {
+        return this.currentUser && this.currentUser.roles.find(x=>x.roletype === RoleType.HeroesWriter);
+    }
+
+    logout() {
+        this.authenticationService.logout();
+        this.router.navigate(['/login']);
+    }
 }
